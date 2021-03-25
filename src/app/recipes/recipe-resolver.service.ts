@@ -5,7 +5,7 @@ import {Observable} from 'rxjs';
 import {DataStorageService} from '../shared/data-storage.service';
 import {RecipeService} from './recipe.service';
 
-@Injectable({providedIn: 'root'})
+@Injectable()
 export class RecipeResolverService implements Resolve<Recipe[]>{
 
   constructor(private readonly dataStorageService: DataStorageService,
