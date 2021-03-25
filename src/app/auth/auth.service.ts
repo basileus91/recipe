@@ -17,7 +17,7 @@ export interface AuthResponseData {
 
 @Injectable()
 export class AuthService {
-  API_KEY = 'AIzaSyDZglS6velcGWOIi_ozAlVbJae3FlpiuW0';
+  API_KEY = 'key from firebase';
   user = new BehaviorSubject<User>(null);
   private tokenExpiratationTimer: any;
 
